@@ -1,1 +1,1 @@
-Test place for terraform - cs- integration
+Detectiom Rule DB for CS Falcon
