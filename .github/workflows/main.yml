@@ -1,0 +1,23 @@
+name: Python Test
+on: 
+  push:
+    branches:
+      - main.yml
+
+jobs:
+  run-python:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Repo Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run Script
+        uses: python r4gast/cs-detections/scripts@detection-tester.py
+
+        
