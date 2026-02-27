@@ -18,6 +18,6 @@ jobs:
           python-version: '3.11'
 
       - name: Run Script
-        uses: python r4gast/cs-detections/scripts@detection-tester.py
+        uses: python r4gast/cs-detections[/scripts]@detection-tester.py
 
         
