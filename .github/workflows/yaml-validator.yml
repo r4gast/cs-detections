@@ -2,8 +2,8 @@ name: Validate Detection File / Yaml
 
 on:
   push:
-    paths:
-      - 'detections/*.yaml'
+    branches:
+      - main
 
 jobs:
   validate:
