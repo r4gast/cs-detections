@@ -1,7 +1,7 @@
 id: DET-008
 name: Kaan Test
 severity: Medium
-owner: KaanKAYA
+owner: KaanKAYA2
 
 rule:
   query: |
