@@ -1,3 +1,7 @@
+#================================
+#Detection Definitions
+#================================
+
 id: SDE-1
 name: Suspicious Person Detection
 description: This rule catches hackers.
@@ -40,14 +44,6 @@ tags:
   - powershell
   - execution
 
-#================================
-#Detection Logic
-#================================
-
-rule:
-  type: scheduled_search
-  query: queryyyy
-
 
 #================================
 #Risk Acceptance Definitions
@@ -61,5 +57,29 @@ active_rac_list:
 
 disabled_rac_list:
   - rac_sde4123_assume_role_catch.yaml
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+#================================
+#Detection Query
+#================================
+
+rule:
+  type: scheduled_search
+  query: queryyyy
 
   
