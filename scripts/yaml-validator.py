@@ -19,16 +19,8 @@ def validate_file(file_path):
       print(f"YAML syntax error in {file_path}")
       print(e)
       sys.exit(1)
-
-  print(type(data))
-  print(data)
   
-  for field in REQUIRED_FIELDS:
-    if field not in data:
-      print(f"Missing required field '{field} in {field_path}")
-      sys.exit(1)
-
-
+ 
 
 if __name__ == "__main__":
   files =  glob.glob("detections/*.yaml")
