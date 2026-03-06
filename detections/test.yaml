@@ -5,7 +5,7 @@
 id: SDE-4244225
 name: Suspicious powershell Detection
 description: This detection rule catches suspicious powershell iex usage.
-source: dfirreport123.com
+source: dfirreport12s3.com
 
 lifecycle:
   status: pre-prod                      
