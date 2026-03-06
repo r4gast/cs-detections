@@ -2,12 +2,10 @@
 # Detection template
 # ==================
 
-
-
-id: "SDE-424425"
-name: "Suspicious powershell Detection"
-description: "This detection rule catches suspicious powershell iex usage."
-source: "dfirreport123.com"
+id: SDE-4244225
+name: Suspicious powershell Detection
+description: This detection rule catches suspicious powershell iex usage.
+source: dfirreport123.com
 
 lifecycle:
   status: pre-prod                      
@@ -17,9 +15,9 @@ lifecycle:
 severity: medium
 confidence: medium
 
-owner: "SDE"
-created: "10/03/2026"
-last update: "12/04/2026"
+owner: SDE
+created: 10/03/2026
+last update: 12/04/2026
 
 mitre:
   tactic: execution
@@ -50,5 +48,5 @@ tags:
 
 rule:
   type: scheduled_search
-  query: "query to catch detections"
+  query: query to catch detections
 
